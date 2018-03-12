@@ -3,18 +3,33 @@ Ecomapss app created by a students of IFCE Campus Crato, which helps who is want
 
 ## Requirements
 
-TODO
+* [NodeJS]
+* [NPM]
+
 
 ## Tutorial
 
-Clonig the repo: 
+Clonig & Installing the repo: 
 
-` git clone https://github.com/MSLacerda/EcoMapss `
+``` 
+git clone https://github.com/MSLacerda/EcoMapss 
 
-## Installing and Running
+cd EcoMapss/app
 
-TODO
+npm install 
+```
+or
+```
+yarn install
+```
 
+
+## Docs
+
+You can view and edit Docs in: 
+
+* `app/README.md` React Native APP Documentations
+* `/Documentation` Others Documentations
 
 
 
