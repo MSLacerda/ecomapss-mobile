@@ -1,6 +1,6 @@
 # EcoMapss
 Ecomapss app created by a students of IFCE Campus Crato, which helps who is want learn about flora and fauna.
-
+[Wiki](https://github.com/MSLacerda/ecomapss-webservice/wiki)
 ## Requirements
 
 * [NodeJS]
