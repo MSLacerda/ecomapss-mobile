@@ -1,6 +1,6 @@
 import { Navigation } from 'react-native-navigation';
 import App from './App';
-import Sub from './Sub';
+import Sub from './src-app/screens/Sub';
 
 Navigation.registerComponent('App', () => App);
 Navigation.registerComponent('Sub', () => Sub);
