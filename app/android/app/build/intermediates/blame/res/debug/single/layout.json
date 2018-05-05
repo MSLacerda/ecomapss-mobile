@@ -4,10 +4,6 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action.xml"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_menu_item_action_area.xml"
     },
@@ -24,12 +20,12 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/layout/dev_loading_view.xml"
-    },
-    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/dev_loading_view.xml",
+        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/layout/dev_loading_view.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
@@ -100,10 +96,6 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_big_media.xml"
-    },
-    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_dialog_title_material.xml"
     },
@@ -116,16 +108,16 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item.xml"
+    },
+    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
@@ -156,10 +148,6 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/layout/redbox_item_frame.xml"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_template_lines.xml"
-    },
-    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_checkbox.xml"
     },
@@ -178,10 +166,6 @@
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_action.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -212,12 +196,12 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action_tombstone.xml"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/layout/fps_view.xml"
-    },
-    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/fps_view.xml",
+        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/layout/fps_view.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
@@ -246,10 +230,6 @@
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_cancel_action.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
