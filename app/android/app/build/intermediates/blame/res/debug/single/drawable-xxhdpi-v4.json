@@ -20,12 +20,12 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",

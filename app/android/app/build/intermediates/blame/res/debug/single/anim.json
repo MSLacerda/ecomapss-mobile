@@ -24,20 +24,20 @@
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/anim/catalyst_fade_out.xml"
-    },
-    {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_fab_out.xml"
+        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/anim/catalyst_fade_out.xml",
+        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/anim/catalyst_fade_out.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/anim/catalyst_push_up_out.xml",
         "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.52.0/res/anim/catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/anim/design_fab_out.xml"
     },
     {
         "merged": "/home/will/Área de Trabalho/app/EcoMapss/EcoMapss-matheus/app/android/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
