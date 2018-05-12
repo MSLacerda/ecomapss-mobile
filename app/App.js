@@ -44,6 +44,17 @@ export default class App extends React.Component {
           }}
           title="MyCards"
         />
+        <Button
+          onPress={() => {
+            this.props.navigator.push({
+              screen: 'Login',
+              title: 'Login',
+            })
+          }}
+          title="Login Screen"
+          color="#841584"
+          accessibilityLabel="Learn  more about this purple button"
+        />
       </View>
     );
   }
