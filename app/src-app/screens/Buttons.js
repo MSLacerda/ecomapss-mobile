@@ -6,9 +6,7 @@ export default class Buttons extends Component {
 
   constructor() {
     super();
-    this.state = {
-
-    }
+    this.state = {}
   }
 
   render() {

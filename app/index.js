@@ -9,8 +9,6 @@ Navigation.registerComponent('Sub', () => Sub);
 Navigation.registerComponent('Buttons', () => Buttons);
 Navigation.registerComponent('MyCards', () => MyCards);
 
-
-
 Navigation.startSingleScreenApp({
     screen: {
         screen: 'App',
