@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-native';
 import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Button, Icon, Left, Body, Right } from 'native-base';
-// import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default class MyCards extends Component {
 
@@ -21,7 +20,7 @@ export default class MyCards extends Component {
               <Left>
                 <Thumbnail source={require('../../asserts/img.jpg')} />
                 <Body>
-                  <Text>Native Base</Text>
+                  <Text>Native Base </Text>
                   <Text note>GeekyAnts</Text>
                 </Body>
               </Left>

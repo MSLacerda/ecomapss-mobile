@@ -5,6 +5,9 @@ import {HttpProviderInterceptor} from './src-app/providers/HttpProvider';
 import App from './App';
 import Sub from './src-app/screens/Sub';
 import Login from './src-app/screens/Login';
+import Buttons from './src-app/screens/Buttons';
+import MyCards from './src-app/screens/MyCards';
+
 
 Navigation.registerComponent('Login', () => Login);
 Navigation.registerComponent('App', () => App);
@@ -14,8 +17,8 @@ Navigation.registerComponent('MyCards', () => MyCards);
 
 Navigation.startSingleScreenApp({
     screen: {
-        screen: 'App',
-        title: 'App'
+        screen: 'Login',
+        title: 'Login'
     },
     animationType: 'none' // optional, add transition animation to root change: 'none', 'slide-down', 'fade'
 });
