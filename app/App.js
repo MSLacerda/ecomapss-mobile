@@ -1,13 +1,60 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+// 'MaterialIcons.ttf', 'FontAwesome.ttf'
 
 export default class App extends React.Component {
   render() {
+
+    var myIcon = (<Icon name="rocket" size={30} color="#900" />)
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        <Text style={styles.welcome}>
+          {myIcon} EcoMapss \o/
+        </Text>
+
+        <Button
+          onPress={() => {
+            this.props.navigator.push({
+              screen: 'Sub',
+              title: 'Sub',
+            })
+          }}
+          title="Próxima"
+          color="#841584"
+        />
+
+        <Button
+          onPress={() => {
+            this.props.navigator.push({
+              screen: 'Buttons',
+              title: 'Buttons',
+            })
+          }}
+          title="Buttons"
+        />
+
+        <Button
+          onPress={() => {
+            this.props.navigator.push({
+              screen: 'MyCards',
+              title: 'MyCards',
+            })
+          }}
+          title="MyCards"
+        />
+        <Button
+          onPress={() => {
+            this.props.navigator.push({
+              screen: 'Login',
+              title: 'Login',
+            })
+          }}
+          title="Login Screen"
+          color="#841584"
+          accessibilityLabel="Learn  more about this purple button"
+        />
       </View>
     );
   }
