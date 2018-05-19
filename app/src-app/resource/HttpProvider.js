@@ -32,7 +32,6 @@ export class HttpProviderInterceptor {
     static configAfterResponse(fnc) {
         _afterResponse = fnc;
     }
-
 }
 
 

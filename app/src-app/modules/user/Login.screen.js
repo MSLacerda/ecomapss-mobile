@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
 import { Container, Content, Form, Item, Input, Label, Button, Thumbnail } from 'native-base';
-import BackgroundImage from '../components/utils/background'
+import BackgroundImage from '../shared/background.component'
+import * as usersActions from '../../core/actions/users.actions'
+import { HttpProvider } from '../../resource/HttpProvider';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
 
-import { HttpProvider } from '../providers/HttpProvider';
-
-export default class Login extends Component {
+class Login extends Component {
 
   constructor(props) {
+
     super(props);
     this.state = { username: "", password: "" }
     this.http = new HttpProvider();
@@ -21,33 +24,20 @@ export default class Login extends Component {
   }
 
   getUser() {
-    const url = 'https://ecomapss-api.herokuapp.com/auth'
-    const data = {
-      "access_token": "aQJLXXmfLBfRuedG26A3ijGFXHVyPkJp"
-    }
-    this.http.post(url, data,
-      {},
-      { //Basi auth
-        username: this.state.username,
-        password: this.state.password
-      })
-      .then(response => {
-        console.warn(response.data);
-      })
-      .catch(error => {
-      })
+    this.props.actions.loginUser(this.state.username, this.state.password)
   }
 
   render() {
+    const { auth } = this.props;
     return (
-      <BackgroundImage source={require('../../asserts/images/back.jpg')}>
+      <BackgroundImage source={require('../../../asserts/images/back.jpg')}>
         <Content>
           <View style={styles.container}>
             <View style={styles.logoContainer}>
-              <Image style={styles.logo} source={require('../../asserts/images/ecomapss.png')} />
+              <Image style={styles.logo} source={require('../../../asserts/images/ecomapss.png')} />
               <Text style={[styles.welcome, styles.textShadow]}>
-                EcoMapss
-            </Text>
+                EcoMapss {auth}
+              </Text>
             </View>
             <Form >
               <Item rounded last style={styles.itemSpace}>
@@ -78,11 +68,26 @@ export default class Login extends Component {
         </Content>
       </BackgroundImage>
     )
-  } 
+  }
 }
 
-// animated: true, 
-// animationType: 'slide-horizontal',
+
+
+function mapStateToProps(state, ownProps) {
+  return {
+    auth: state.auth
+  };
+}
+
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(usersActions, dispatch)
+  };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
+
+
 
 
 const { height, width } = Dimensions.get('window');
@@ -92,7 +97,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     margin: 30,
-    marginTop:50
+    marginTop: 50
   },
   itemSpace: {
     marginTop: 30,
