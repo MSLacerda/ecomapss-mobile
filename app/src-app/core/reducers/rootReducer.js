@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import historias from './historias.reducer';
+import histories from './histories.reducer';
+import users from './users.reducer';
 
 const rootReducer = combineReducers({
-	historias
+	histories,
+	users
 });
 
 export default rootReducer;

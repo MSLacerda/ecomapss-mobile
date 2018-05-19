@@ -18,7 +18,7 @@ export default class MyCards extends Component {
         <Card>
             <CardItem>
               <Left>
-                <Thumbnail source={require('../../asserts/img.jpg')} />
+                <Thumbnail source={require('../../../asserts/img.jpg')} />
                 <Body>
                   <Text>Native Base </Text>
                   <Text note>GeekyAnts</Text>
@@ -26,7 +26,7 @@ export default class MyCards extends Component {
               </Left>
             </CardItem>
             <CardItem cardBody>
-              <Image source={require('../../asserts/img.jpg')} style={{ height: 200, width: null, flex: 1 }} />
+              <Image source={require('../../../asserts/img.jpg')} style={{ height: 200, width: null, flex: 1 }} />
             </CardItem>
             <CardItem>
               <Left>
@@ -48,7 +48,7 @@ export default class MyCards extends Component {
           </Card><Card>
             <CardItem>
               <Left>
-                <Thumbnail source={require('../../asserts/img.jpg')} />
+                <Thumbnail source={require('../../../asserts/img.jpg')} />
                 <Body>
                   <Text>Native Base</Text>
                   <Text note>GeekyAnts</Text>
@@ -56,7 +56,7 @@ export default class MyCards extends Component {
               </Left>
             </CardItem>
             <CardItem cardBody>
-              <Image source={require('../../asserts/img.jpg')} style={{ height: 200, width: null, flex: 1 }} />
+              <Image source={require('../../../asserts/img.jpg')} style={{ height: 200, width: null, flex: 1 }} />
             </CardItem>
             <CardItem>
               <Left>

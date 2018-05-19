@@ -4,7 +4,7 @@ export default {
 		status: { hasError: false, isLoading: false },
 		list: []
 	},
-	historias: {
+	histories: {
 		status: { hasError: false, isLoading: false },
 		list: []
 	},
