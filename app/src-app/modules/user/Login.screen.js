@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
 import { Container, Content, Form, Item, Input, Label, Button, Thumbnail } from 'native-base';
-import BackgroundImage from '../components/utils/background'
+import BackgroundImage from '../../shared/components/background'
 
-import { HttpProvider } from '../providers/HttpProvider';
+import { HttpProvider } from '../../../providers/HttpProvider';
 
 export default class Login extends Component {
 
