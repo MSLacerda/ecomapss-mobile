@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
+import { Text, View, Image } from 'react-native';
 import { Container, Content, Form, Item, Input, Label, Button, Thumbnail } from 'native-base';
 import BackgroundImage from '../shared/background.component'
 import * as usersActions from '../../core/actions/users.actions'
 import { HttpProvider } from '../../resource/HttpProvider';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import styles from './styles/Login';
 
 class Login extends Component {
 
@@ -71,8 +72,6 @@ class Login extends Component {
   }
 }
 
-
-
 function mapStateToProps(state, ownProps) {
   return {
     auth: state.auth
@@ -88,46 +87,3 @@ function mapDispatchToProps(dispatch) {
 export default connect(mapStateToProps, mapDispatchToProps)(Login);
 
 
-
-
-const { height, width } = Dimensions.get('window');
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    margin: 30,
-    marginTop: 50
-  },
-  itemSpace: {
-    marginTop: 30,
-  },
-  text: {
-    color: "white",
-  },
-  logoContainer: {
-    flex: 1,
-    // justifyContent: 'center',
-    alignItems: 'center',
-  },
-  logo: {
-    height: 150,
-    width: 150,
-    flex: 1
-  },
-  welcome: {
-    fontSize: 35,
-    textAlign: 'center',
-    color: "white",
-    margin: 25,
-    // marginBottom:30
-  },
-  textShadow: {
-    textShadowColor: 'black',
-    textShadowRadius: 3,
-    textShadowOffset: {
-      width: 1,
-      height: 1
-    }
-  }
-});
