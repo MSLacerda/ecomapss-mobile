@@ -2,17 +2,11 @@ import { Navigation } from 'react-native-navigation';
 
 import {HttpProviderInterceptor} from './src-app/providers/HttpProvider';
 
-import App from './App';
-import Sub from './src-app/screens/Sub';
 import Login from './src-app/screens/Login';
-import Buttons from './src-app/screens/Buttons';
 import MyCards from './src-app/screens/MyCards';
 
 
 Navigation.registerComponent('Login', () => Login);
-Navigation.registerComponent('App', () => App);
-Navigation.registerComponent('Sub', () => Sub);
-Navigation.registerComponent('Buttons', () => Buttons);
 Navigation.registerComponent('MyCards', () => MyCards);
 
 Navigation.startSingleScreenApp({
