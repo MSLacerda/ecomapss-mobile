@@ -7,9 +7,8 @@ export default function (state = initialState.auth, action) {
 		case types.LOGIN_USER_SUCCESS:
 			return {
 				...state,
-				auth: action.loginUser
-			};
-
+				auth: action.auth
+			}
 		default:
 			return state;
 	}

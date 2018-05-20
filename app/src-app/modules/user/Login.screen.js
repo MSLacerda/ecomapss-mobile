@@ -11,7 +11,6 @@ import styles from './styles/Login';
 class Login extends Component {
 
   constructor(props) {
-
     super(props);
     this.state = { username: "", password: "" }
     this.http = new HttpProvider();
@@ -21,7 +20,7 @@ class Login extends Component {
     this.props.navigator.setStyle({
       navBarHidden: true,
       navBarBackgroundColor: '#000000',
-    });
+    })
   }
 
   getUser() {
@@ -33,7 +32,7 @@ class Login extends Component {
     return (
       <BackgroundImage source={require('../../../asserts/images/back.jpg')}>
         <Content>
-          <View style={styles.container}>
+          <View style={styles.container}>  
             <View style={styles.logoContainer}>
               <Image style={styles.logo} source={require('../../../asserts/images/ecomapss.png')} />
               <Text style={[styles.welcome, styles.textShadow]}>
@@ -75,15 +74,15 @@ class Login extends Component {
 function mapStateToProps(state, ownProps) {
   return {
     auth: state.auth
-  };
+  }
 }
 
 function mapDispatchToProps(dispatch) {
   return {
     actions: bindActionCreators(usersActions, dispatch)
-  };
+  }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default connect(mapStateToProps, mapDispatchToProps)(Login)
 
 
