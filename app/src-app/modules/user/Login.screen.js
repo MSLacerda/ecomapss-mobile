@@ -32,7 +32,7 @@ class Login extends Component {
     return (
       <BackgroundImage source={require('../../../asserts/images/back.jpg')}>
         <Content>
-          <View style={styles.container}>  
+          <View style={styles.container}>   
             <View style={styles.logoContainer}>
               <Image style={styles.logo} source={require('../../../asserts/images/ecomapss.png')} />
               <Text style={[styles.welcome, styles.textShadow]}>
