@@ -17,8 +17,7 @@ export function retrieveHistoriesList(q, page) {
 	return function (dispatch) {
 		return http.get(`${API_URL}/historias`, { q, page })
 			.then(response => {
-				dispatch(retrieveHistoriesListSuccess(res));
-				console.warn(response);
+				dispatch(retrieveHistoriesListSuccess(response));
 			})
 			.catch(error => {
 				console.warn('Histories List', error); //eslint-disable-line

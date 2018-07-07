@@ -9,7 +9,7 @@ let http = new HttpProvider();
 export function loginUserSuccess(res) {
 	return {
 		type: types.LOGIN_USER_SUCCESS,
-		auth: res.data
+		auth: res
 	};
 }
 
@@ -18,8 +18,8 @@ export function loginUser(username, password) {
 	return function (dispatch) {
 		return http.post(`${API_URL}/auth`, { "access_token": API_ACCESS_TOKEN }, {}, { username, password })
 			.then(response => {
-				console.warn('response', response.data);
-				dispatch(loginUserSuccess(res));
+				
+				dispatch(loginUserSuccess(response.data));
 			})
 			.catch(error => {
 				console.warn(error);
