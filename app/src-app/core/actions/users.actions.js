@@ -14,11 +14,9 @@ export function loginUserSuccess(res) {
 }
 
 export function loginUser(username, password) {
-	console.warn('username, password', username, password);
 	return function (dispatch) {
 		return http.post(`${API_URL}/auth`, { "access_token": API_ACCESS_TOKEN }, {}, { username, password })
 			.then(response => {
-				
 				dispatch(loginUserSuccess(response.data));
 			})
 			.catch(error => {
@@ -34,7 +32,6 @@ export function loginUser(username, password) {
 //HTTP INTERCEPTOR USE EXAMPLE
 HttpProviderInterceptor.configBeforeRequest((config) => {
 	config['headers']['authorization'] = 'IGOR';
-	console.warn('Interceptei', config);
 });
 
 HttpProviderInterceptor.configOnRequestError((error) => {

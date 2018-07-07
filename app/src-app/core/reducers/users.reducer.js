@@ -5,10 +5,7 @@ export default function (state = initialState.auth, action) {
 	switch (action.type) {
 
 		case types.LOGIN_USER_SUCCESS:
-			return {
-				...state,
-				auth: action.auth
-			}
+			return action.auth
 		default:
 			return state;
 	}

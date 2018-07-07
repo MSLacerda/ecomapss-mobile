@@ -3,7 +3,7 @@ import histories from './histories.reducer';
 import users from './users.reducer';
 
 const rootReducer = combineReducers({
-	histories,
+	// histories,
 	users
 });
 

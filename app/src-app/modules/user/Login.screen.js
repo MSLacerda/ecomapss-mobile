@@ -12,7 +12,7 @@ class Login extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { username: "", password: "" }
+    this.state = { username: "", password: "" , auth: {}}
     this.http = new HttpProvider();
   }
 
@@ -36,7 +36,7 @@ class Login extends Component {
             <View style={styles.logoContainer}>
               <Image style={styles.logo} source={require('../../../asserts/images/ecomapss.png')} />
               <Text style={[styles.welcome, styles.textShadow]}>
-                EcoMapss {auth}
+                EcoMapss {auth.user.name}
               </Text>
             </View>
             <Form >
@@ -47,8 +47,8 @@ class Login extends Component {
                   value={this.state.username}
                   onChangeText={(username) => this.setState({ username })}
                   style={[styles.text, styles.textShadow]}
-                />
-              </Item>
+                /> 
+              </Item>  
               <Item rounded last style={styles.itemSpace}>
                 <Label style={[styles.text, styles.textShadow]}>Senha: </Label>
                 <Input
@@ -64,7 +64,7 @@ class Login extends Component {
                 <Text style={styles.text}>Entrar{this.username}</Text>
               </Button>
             </Form>
-          </View>
+          </View> 
         </Content>
       </BackgroundImage>
     )
@@ -73,7 +73,7 @@ class Login extends Component {
 
 function mapStateToProps(state, ownProps) {
   return {
-    auth: state.auth
+    auth: state.users
   }
 }
 
