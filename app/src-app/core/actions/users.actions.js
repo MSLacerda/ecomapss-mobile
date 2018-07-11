@@ -1,4 +1,4 @@
-import { HttpProvider, HttpProviderInterceptor } from '../../resource/HttpProvider';
+import { HttpProvider } from '../../resource/HttpProvider';
 import * as types from '../constants/users.actionTypes';
 import { API_URL, API_ACCESS_TOKEN } from '../constants/api';
 
@@ -20,33 +20,7 @@ export function loginUser(username, password) {
 				dispatch(loginUserSuccess(response.data));
 			})
 			.catch(error => {
-				console.warn(error);
+				console.log('error',error);
 			})
 	};
 }
-
-
-
-
-
-//HTTP INTERCEPTOR USE EXAMPLE
-HttpProviderInterceptor.configBeforeRequest((config) => {
-	config['headers']['authorization'] = 'IGOR';
-});
-
-HttpProviderInterceptor.configOnRequestError((error) => {
-	switch (error.status) {
-		case 401:
-			console.warn('sem permissao');
-			break;
-		case 403:
-			console.warn('sem permissao, va para o login');
-			break;
-		case 404:
-			console.warn('nao encontrato');
-			break
-	}
-});
-
-//Use the next line to allow network debug
-GLOBAL.XMLHttpRequest = GLOBAL.originalXMLHttpRequest || GLOBAL.XMLHttpRequest;

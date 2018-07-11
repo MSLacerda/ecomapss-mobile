@@ -1,8 +1,9 @@
 import { Navigation } from 'react-native-navigation';
-
 import { Provider } from 'react-redux';
 import { registerScreens } from './src-app/modules/screens';
 import configureStore from './src-app/core/store/configureStore';
+import httpMiddleware from './src-app/core/middlewares/http.middleware';
+ 
 
 const store = configureStore();
 
@@ -13,16 +14,16 @@ const navigatorStyle = {
 	navBarHideOnScroll: true,
 	tabBarHidden: true,
 	drawUnderTabBar: true
-};
-
+}; 
+ 
 Navigation.startSingleScreenApp({
-    screen: {
-        screen: 'Login',
-        title: 'Login'
-    },
-    animationType: 'none' // add transition animation to root change: 'none', 'slide-down', 'fade'
+	screen: {
+		screen: 'Login',
+		title: 'Login'
+	},
+	animationType: 'none' // add transition animation to root change: 'none', 'slide-down', 'fade'
 });
-
+httpMiddleware()
 
 // Navigation.startSingleScreenApp({
 // 	screen: {
@@ -41,4 +42,5 @@ Navigation.startSingleScreenApp({
 // 		}
 // 	}
 // });
+
 
