@@ -18,9 +18,9 @@ const navigatorStyle = {
  
 Navigation.startSingleScreenApp({
 	screen: {
-		screen: 'Login',
-		title: 'Login'
-	},
+		screen: 'AppIntroduction',
+		title: 'Login',
+	},  
 	animationType: 'none' // add transition animation to root change: 'none', 'slide-down', 'fade'
 });
 httpMiddleware()

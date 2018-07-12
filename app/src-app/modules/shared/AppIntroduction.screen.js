@@ -1,61 +1,50 @@
 import React, { Component } from 'react';
-import { Alert } from 'react-native';
-import AppIntro from 'react-native-app-intro';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  Image
+} from 'react-native';
+import {
+  Container,
+  Content,
+  Button,
+  Thumbnail
+} from 'native-base';
 
-class Example extends Component {
-  constructor() {
-    super();
-    this.state = {
+import Swiper from 'react-native-swiper';
+import styles from './styles/AppIntroduction';
 
-    }
+export default class AppIntroduction extends Component {
+
+  constructor(props) {
+    super(props);
   }
- 
-  onSkipBtnHandle = (index) => {
-    Alert.alert('Skip');
-    console.log(index);
+
+  componentWillMount() {
+    this.props.navigator.setStyle({
+      navBarHidden: true,
+    })
   }
-  doneBtnHandle = () => {
-    Alert.alert('Done');
-  }
-  nextBtnHandle = (index) => {
-    Alert.alert('Next');
-    console.log(index);
-  }
-  onSlideChangeHandle = (index, total) => {
-    console.log(index, total);
+
+  _onDone = () => {
+    // User finished the introduction. Show "real" app
   }
   render() {
-    const pageArray = [{
-      title: 'Page 1',
-      description: 'Description 1',
-      img: require('../../../asserts/ecomapss/flora.svg'),
-      imgStyle: {
-        height: 80 * 2.5,
-        width: 109 * 2.5,
-      },
-      backgroundColor: '#fa931d',
-      fontColor: '#fff',
-      level: 10,
-    }, {
-      title: 'Page 2',
-      description: 'Description 2',
-      img: require('../../../asserts/ecomapss/fauna.svg'),
-      imgStyle: {
-        height: 93 * 2.5,
-        width: 103 * 2.5,
-      },
-      backgroundColor: '#a4b602',
-      fontColor: '#fff',
-      level: 10,
-    }];
     return (
-      <AppIntro
-        onNextBtnClick={this.nextBtnHandle}
-        onDoneBtnClick={this.doneBtnHandle}
-        onSkipBtnClick={this.onSkipBtnHandle}
-        onSlideChange={this.onSlideChangeHandle}
-        pageArray={pageArray}
-      />
-    );
+      <Swiper style={styles.wrapper} showsButtons={true} loop={false}	>
+        <View style={styles.slide1}>
+          <Thumbnail large large	 source={require('../../../asserts/images/ecomapss.png')} />
+          <Text style={styles.text}>ecomapss</Text>
+        </View>
+        <View style={styles.slide2}>
+          <Text style={styles.text}>Beautiful</Text>
+        </View>
+        <View style={styles.slide3}>
+          <Text style={styles.text}>And simple</Text>
+        </View>
+      </Swiper>
+    );  
   }
 }
