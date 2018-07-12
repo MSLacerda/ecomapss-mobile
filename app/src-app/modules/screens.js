@@ -14,7 +14,7 @@ export function registerScreens(store, Provider) {
 	Navigation.registerComponent('AppIntroduction', () => AppIntroduction); 
 }
 
-//  user admin
+//  user adwamin
 export function registerScreensAdmin(store, Provider) {
 	// Navigation.registerComponent('Login', () => Login, store, Provider);
 	// Navigation.registerComponent('MyCards', () => MyCards, store, Provider);
