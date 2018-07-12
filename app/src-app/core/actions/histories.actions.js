@@ -14,41 +14,13 @@ export function retrieveHistoriesListSuccess(res) {
 }
 
 export function retrieveHistoriesList(q, page) {
-	return function (dispatch) {
+	return function (dispatch, getState) {
 		return http.get(`${API_URL}/historias`, { q, page })
 			.then(response => {
-				dispatch(retrieveHistoriesListSuccess(res));
-				console.warn(response);
+				dispatch(retrieveHistoriesListSuccess(response));
 			})
 			.catch(error => {
-				console.warn('Histories List', error); //eslint-disable-line
+				console.log('Histories List', error); //eslint-disable-line
 			})
 	};
 }
-
-
-
-
-
-//HTTP INTERCEPTOR USE EXAMPLE
-HttpProviderInterceptor.configBeforeRequest((config) => {
-	config['headers']['authorization'] = 'IGOR';
-	console.warn('Interceptei', config);
-});
-
-HttpProviderInterceptor.configOnRequestError((error) => {
-	switch (error.status) {
-		case 401:
-			console.warn('sem permissao');
-			break;
-		case 403:
-			console.warn('sem permissao, va para o login');
-			break;
-		case 404:
-			console.warn('nao encontrato');
-			break
-	}
-});
-
-//Use the next line to allow network debug
-GLOBAL.XMLHttpRequest = GLOBAL.originalXMLHttpRequest || GLOBAL.XMLHttpRequest;

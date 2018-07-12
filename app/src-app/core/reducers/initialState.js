@@ -1,5 +1,5 @@
 export default {
-	auth: {},
+	auth: { user: { name: "oi" } },
 	faunas: {
 		status: { hasError: false, isLoading: false },
 		list: []

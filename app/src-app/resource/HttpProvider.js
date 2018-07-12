@@ -116,6 +116,4 @@ export class HttpProvider {
     del(url, data, config) {
         return this.requestBase('delete', url, data, config);
     }
-
-
 }
