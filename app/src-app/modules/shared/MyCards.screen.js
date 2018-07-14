@@ -4,8 +4,8 @@ import { Container, Header, Content, Card, CardItem, Thumbnail, Text, Button, Ic
 
 export default class MyCards extends Component {
 
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
 
     }
@@ -15,7 +15,7 @@ export default class MyCards extends Component {
     return (
       <Container>
         <Content>
-        <Card>
+          <Card>
             <CardItem>
               <Left>
                 <Thumbnail source={require('../../../asserts/img.jpg')} />
@@ -35,7 +35,7 @@ export default class MyCards extends Component {
                   <Text>12 Likes</Text>
                 </Button>
               </Left>
-              <Body>
+              <Body> 
                 <Button transparent>
                   {/* <Icon active name="chatbubbles" /> */}
                   <Text>4 Comments</Text>

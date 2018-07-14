@@ -14,6 +14,31 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		width: "100%",
 		height: "100%"
+	},
+	full: {
+		flex: 1,
+		justifyContent: 'center',
+		width: "100%",
+		height: "100%"
+	},
+	center: {
+		flex: 1,
+		justifyContent: 'center',
+		alignItems: 'center',
+	},
+	centerSelf: {
+		alignSelf: 'center'
+	},
+	form:{
+		margin: 20
+	},
+	button:{
+		marginTop : 20, 
+		marginLeft: 12
+	},
+	label:{
+		color: '#fff',
+		// fontSize: 30,
 	}
 });
 
