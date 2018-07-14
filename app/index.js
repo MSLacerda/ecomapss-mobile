@@ -19,7 +19,7 @@ const navigatorStyle = {
 Navigation.startSingleScreenApp({
 	screen: {
 		screen: 'AppIntroduction',
-		title: 'Login',
+		// title: 'Login', 
 	},  
 	animationType: 'none' // add transition animation to root change: 'none', 'slide-down', 'fade'
 });
