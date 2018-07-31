@@ -17,7 +17,7 @@ const navigatorStyle = {
 
 Navigation.startSingleScreenApp({
 	screen: {
-		screen: 'AppIntroduction',
+		screen: 'Teste',
 		navigatorStyle,
 		leftButtons: [
 			{
