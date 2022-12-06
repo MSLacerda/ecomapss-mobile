@@ -21,7 +21,7 @@
     "axios": "^0.18.0",
     "native-base": "^2.4.3",
     "react": "16.2.0",
-    "react-native": "0.52.0",
+    "react-native": "0.70.6",
     "react-native-linear-gradient": "^2.4.0",
     "react-native-navigation": "^1.1.453",
     "react-native-swiper": "^1.5.13",
